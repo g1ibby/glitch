@@ -1,0 +1,169 @@
+.content {
+    width: 1100px;
+    margin: auto;
+}
+
+.content-glitch {
+    width: 1030px;
+    height: 1030px;
+    margin: auto;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.menu {
+    position: absolute;
+    left: 36%;
+}
+
+.one-glitch {
+    width: 200px;
+    height: 200px;
+    margin: 3px;
+    float: left;
+}
+
+.preloaders-img {
+    background: url("loader.gif");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0px 0px -50px;
+    width: 80px;
+    height: 80px;
+}
+
+.glitch-button {
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0px 0px -260px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.update-table {
+    display: block;
+    margin: 10px;
+    width: 150px;
+    float: left;
+}
+
+.wall-post {
+    display: block;
+    margin: 10px;
+    width: 170px;
+    float: left;
+
+}
+
+.wall-post-load {
+    background: url("loader-wallpost.gif") !important;
+    background-color: #3e779d;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 60px;
+    height: 20px;
+    float: left;
+    margin: 20px;
+    margin-left: 55px;
+}
+
+.update-glitch {
+    z-index: 5;
+    position: absolute;
+    color: white;
+    width: 100px;
+    height: 19px;
+    cursor: pointer;
+    opacity: 0.7;
+    filter: alpha(Opacity=70);
+    padding: 1px 50px;
+    background: #38afff;
+    border-radius: 0 0 22px 22px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5)
+}
+
+.update-glitch:hover {
+    background: #65a9d7;
+}
+
+.button {
+    border: 1px solid #335a70;
+    background: #38afff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#60b6f0), to(#38afff));
+    background: -webkit-linear-gradient(top, #60b6f0, #38afff);
+    background: -moz-linear-gradient(top, #60b6f0, #38afff);
+    background: -ms-linear-gradient(top, #60b6f0, #38afff);
+    background: -o-linear-gradient(top, #60b6f0, #38afff);
+    background-image: -ms-linear-gradient(top, #60b6f0 0%, #38afff 100%);
+    padding: 9.5px 19px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+    box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+    text-shadow: #7ea4bd 0 1px 0;
+    color: #06426c;
+    font-size: 19px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.button:hover {
+    border: 1px solid #255e7d;
+    text-shadow: #8eb4cc 0 1px 0;
+    background: #3e779d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3b7fad), to(#3e779d));
+    background: -webkit-linear-gradient(top, #3b7fad, #3e779d);
+    background: -moz-linear-gradient(top, #3b7fad, #3e779d);
+    background: -ms-linear-gradient(top, #3b7fad, #3e779d);
+    background: -o-linear-gradient(top, #3b7fad, #3e779d);
+    background-image: -ms-linear-gradient(top, #3b7fad 0%, #3e779d 100%);
+    color: #fff;
+}
+.button:active {
+    text-shadow: #1e4158 0 1px 0;
+    border: 1px solid #0a3c59;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+    color: #fff;
+}
+
+
+.clearfix:after {
+
+    content: "."
+
+    display: block;
+
+    height: 0;
+
+    clear: both;
+
+    visibility: hidden;
+
+}
+
+.clearfix {display: inline-block;}
+
+
+/* Hides from IE-mac \*/
+
+* html .clearfix {height: 1%;}
+
+.clearfix {display: block;}
+
+/* End hide from IE-mac */
+
+.hide {
+    display: none;
+}
